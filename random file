@@ -1,0 +1,13 @@
+marks = int(input("Enter the midterm marks of CSE110: "))
+
+if(marks >= 0) and (marks <= 10):
+    print("Fail. You should retake the course.")
+    
+elif(marks >= 11) and (marks <= 20):
+    print("Not satisfactory. Try harder to do better.")
+          
+elif(marks >= 21) and (marks <= 30):
+    print("Satisfactory. Try to clear all confusion before final.")
+    
+else:
+    print("Invalid marks.")
